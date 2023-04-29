@@ -6,7 +6,7 @@
  * Return: empty
  */
 
-void more_numbers(void)
+void print_line(int n)
 {
 int x;
 
