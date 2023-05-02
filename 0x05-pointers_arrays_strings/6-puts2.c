@@ -1,18 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-*Swap_int -Swaps the values of two integers.
-*@a: The first integer to be swapped.
-*@b: The second integer to be swapped.
-*
-* Return: nothing
+*puts2 - Prints every other character of a string
+*@str: The string to be treated
+*Return: void
 */
 
 void puts2(char *str)
 {
 int i;
 int j = 0;
-while (str[j] != '0')
+while (str[j] != '\0')
 {
 j++;
 }
